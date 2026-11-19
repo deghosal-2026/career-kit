@@ -75,8 +75,9 @@ Apply `rubrics/resume-best-practices.md`, including the region rules in its sect
 
 ### Step 7: Spine cross-check
 If the bank does not exist, skip this step, note it in the Summary, and offer the spine's capture workflow at the end — do not interview mid-check.
+If the bank was built only from this resume (first capture, no interview answers yet), say so plainly: **no missing-story finding is possible, because the bank cannot hold material the resume lacks.** State when the finding becomes possible — after the first capture round adds stories from answers — instead of straining to fill this section.
 If it exists:
-- **Strong stories the resume never shows.** Quote the story ID and its facts, and suggest the resume line for each, following `spine/03-use/use.md`: compress, never inflate, and carry the story's label. This is the check's best finding — lead with it.
+- **Strong stories the resume never shows.** Quote the story ID and its facts, and suggest the resume line for each, following `spine/03-use/use.md`: compress, never inflate, and carry the story's label. This is the check's best finding — lead with it. **Verify each absence by searching the resume text; never assert it from memory.**
 - **Weak stories the resume dresses up.** Where the resume states a result the bank holds only as Weak or unconfirmed, mark it **Fix** and keep the `[CONFIRM]` that would make it Strong.
 - **Stories that resolve open questions.** Where a resume gap has a Confirmed answer in the bank, use it and say so.
 - **Work on the resume with no matching story.** Note it for the next capture round — either it is new work the bank lacks, or it is unsupported. Do not invent a story for it.
@@ -189,7 +190,7 @@ These are suggestions. Keep, change, or ignore each one.
 |---|---|---|
 
 ## 6. Spine cross-check
-[Or "No story bank yet — run the spine's capture workflow to get the cross-check next time."]
+[Or "No story bank yet — run the spine's capture workflow to get the cross-check next time." Or, for a first-capture bank: "This bank was mined from this resume, so no missing-story finding is possible yet; it appears after the first capture round adds stories from answers."]
 
 **Strong stories your resume never shows** (the findings worth most)
 | Story | Label | What the story says (quoted) | Suggested resume line |
@@ -231,7 +232,7 @@ Check each item and fix the answer before sending it. Do not print this checklis
 - [ ] Detected discipline, track, and level shown and confirmed by the user before judging; target stated.
 - [ ] Summary written last but placed first, and consistent with the sections below.
 - [ ] Every area has both "What looks good" and "Issues". If an area has no issues, say "None found".
-- [ ] Every rating and issue quotes the resume, or says "Not found in resume". Every quote is verbatim, including garbled characters.
+- [ ] Every rating and issue quotes the resume, or says "Not found in resume". Every quote is verbatim, including garbled characters. **Every "not found" or "never shows" claim was verified by searching the material — not asserted from memory — and every count (stories, findings, open questions) comes from counting the actual files.**
 - [ ] No percentages, scores, or pass probabilities, including for ATS.
 - [ ] Only the labels from `shared/labels.md`: Strong, Weak, Absent; Reframe, Stretch, Real gap; OK, Fix, Check.
 - [ ] **Check** used only for things that can't be seen in pasted text.
