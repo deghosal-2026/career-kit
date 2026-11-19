@@ -28,6 +28,7 @@ Deferred from v0.1.0, plus out-of-scope items. Nothing here is built until its n
 | career-gap, discipline-switch, exit-return | transitions | Gaps, discipline switches, exits and returns | A whole phase |
 
 ### Capabilities
+- **Personal story-bank capture** — running the spine's capture workflow on the user's own resume and material to produce their `my-files/profile.md` and `story-bank.md`. The spine util ships in v0.1.0; capturing a real person's bank is a v0.2.0 activity.
 - **Interview-rounds support** — mock-interview loops, panel prep, timed drills. Out of scope for v0.1.0 by decision; revisit when `interview-prep` is built.
 - **Discipline-level-file research refresh** — the 42 files under `shared/engineering/` and `shared/product/` were confirmed, not rewritten, by the v0.1.0 research. A dedicated pass (per discipline, with sources) is deferred.
 - **Quick-scan evidence refresh** — the eye-tracking and hiring-survey figures in `resume-check/rubrics/resume-best-practices.md` are 2012–2018; a newer-evidence pass is deferred.
