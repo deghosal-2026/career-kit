@@ -6,6 +6,7 @@ A private, Markdown-only career operating system for people in tech: one evidenc
 
 - **The charter:** [`WHAT-THIS-IS.md`](WHAT-THIS-IS.md) — what this is, what it is not. Read it first; everything follows it.
 - **New here?** [`USER-GUIDE.md`](USER-GUIDE.md) — what you get and how the steps fit together.
+- **What's next?** [`ROADMAP.md`](ROADMAP.md) — shipped in v0.1.0, planned for v0.2.0.
 - **Using an AI agent:** open [`AGENTS.md`](AGENTS.md).
 - **In any AI chat:** open a util's `START.md` and paste its files as it instructs.
 

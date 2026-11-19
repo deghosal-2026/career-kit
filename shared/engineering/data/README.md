@@ -30,3 +30,6 @@ Covers engineers who build and run the systems that move, store, model, and serv
 - **Years of experience are not a level signal.** Judge scope and impact. Long tenure at one level does not make someone the next level.
 - **Written communication counts.** From Senior up, design docs, data model specs, data contracts, and strategy docs are evidence under Depth and Influence.
 - **"Head of Data" is often a mixed role.** Leaders of data orgs may also run analytics or data science. Use the Leader files for the leadership evidence, judge craft Depth on the data engineering and platform side, and say which parts of the role fall outside career-kit.
+
+- **Reach decides the level, not the size of the number.** Apply the outside-observer test (`../../levels.md` §6–7): a Senior outcome gets repeated in a team or product review; a Staff outcome in an engineering-leadership meeting; a Principal or Director outcome in front of company leadership or on an external stage. Judge who benefits and how widely, not the percentage.
+- **Levels are awarded conservatively.** Promotion lags demonstrated performance — the next level's scope must already be shown, consistently, over time. One level-sized project inside a year of lower-level work reads as the lower level with a highlight, not as the next level. See `../../levels.md` §8.

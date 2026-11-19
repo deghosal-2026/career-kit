@@ -32,3 +32,6 @@ Covers technical program managers who drive delivery of technical programs acros
 - **TPM managers often still own programs.** Many first-line TPM managers run a program themselves alongside their team. Do not mark them down for it. If own program work dominates and reports are few, judge the dominant track and count the other side as supporting evidence.
 - **Years of experience are not a level signal.** Judge scope and impact.
 - **Written communication counts heavily.** Program plans, decision documents, risk reviews, launch readiness reviews, and executive updates are evidence under Depth and Influence from Senior up.
+
+- **Reach decides the level, not the size of the number.** Apply the outside-observer test (`../../levels.md` §6–7): a Senior outcome gets repeated in a team or product review; a Staff outcome in an engineering-leadership meeting; a Principal or Director outcome in front of company leadership or on an external stage. Judge who benefits and how widely, not the percentage.
+- **Levels are awarded conservatively.** Promotion lags demonstrated performance — the next level's scope must already be shown, consistently, over time. One level-sized project inside a year of lower-level work reads as the lower level with a highlight, not as the next level. See `../../levels.md` §8.

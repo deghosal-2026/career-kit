@@ -34,3 +34,6 @@ Safer releases (staged rollouts, automatic rollback) count as SRE when the resum
 - **Influence without authority is the core of the job.** SREs often change how product teams design and run their systems. Production readiness reviews, design reviews, and reliability standards adopted by other teams are Influence evidence from Senior up.
 - **Years of experience are not a level signal.** Long tenure handling incidents does not make someone the next level.
 - **Written communication counts.** Incident reviews, design reviews, SLO documents, and reliability strategy docs are evidence under Depth and Influence.
+
+- **Reach decides the level, not the size of the number.** Apply the outside-observer test (`../../levels.md` §6–7): a Senior outcome gets repeated in a team or product review; a Staff outcome in an engineering-leadership meeting; a Principal or Director outcome in front of company leadership or on an external stage. Judge who benefits and how widely, not the percentage.
+- **Levels are awarded conservatively.** Promotion lags demonstrated performance — the next level's scope must already be shown, consistently, over time. One level-sized project inside a year of lower-level work reads as the lower level with a highlight, not as the next level. See `../../levels.md` §8.

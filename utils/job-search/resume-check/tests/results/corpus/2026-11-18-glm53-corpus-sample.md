@@ -36,14 +36,14 @@ Golden rows are in `../../corpus/MANIFEST.md`.
 **Guards:** complete ✓ · labels only ✓ · no scores ✓ · no invented facts ✓ · English ✓ · boundary n/a.
 **Golden comparison:** detection matches (Product/leader). **PASS.** Note: the no-education choice handled as `[OPTIONAL]`, not a Fix — correct.
 
-## `115-director-r1790.txt` — Director of Engineering (corpus-2484 row 1790)
+## `108-director-r1742.txt` — Director of Engineering (corpus-2484)
 **Golden:** Director of Engineering (software companies; CTO/VP history) — Leader track, Director.
 **Detected:** Software engineering, Leader, Director (multi-team ownership, P&L-adjacent, CTO/VP history).
 **Areas:** ATS Fix (duplicated "Work History" block repeats the top section verbatim; "Company Name" placeholders everywhere; dates not on a single line); Quick scan Fix (no summary, experience starts immediately, org scope not in the top third); Level fit Strong for Director — Scope Strong ("two new product development teams and one legacy team", org build-out "hiring 12 junior engineers"), People Strong (hired/grew teams, built an Atlanta office), Business impact Strong ("60% of all implementations… deployed on this platform", "increased online sales by 45% and total sales by 65%", "$30K in 4 months"); Ambiguity Strong (founded companies, "2 to 94 in two years"); AI Absent; Best practices Fix (duplicated content, placeholder company names, superlative-free but boilerplate-heavy).
 **Guards:** complete ✓ · labels only ✓ · no scores ✓ · no invented facts ✓ · English ✓ · boundary n/a.
 **Golden comparison:** detection matches (Leader/Director). **PASS.** Note: the strongest leader signal in the corpus; the duplication is the headline Fix.
 
-## `116-eng-manager-r1800.txt` — Systems Engineering Manager (corpus-2484 row 1800)
+## `115-eng-manager-r1801.txt` — Systems Engineering Manager (corpus-2484)
 **Golden:** Leader track, Manager/Senior Manager; hardware–software domain noted.
 **Detected:** Engineering leadership, Leader, Senior Manager-class (functional manager of 70+ engineers, $60M+ programs) — domain is defense simulation (hardware–software), which the software rubric covers only in part.
 **Areas:** ATS Fix (run-together text, "Systems : Hardware-Software", stray spacing); Quick scan Fix (title then skills, no summary); Level fit — Scope Strong ("Manage 63 Systems Engineers, Software Engineers, Test Engineers…"), People Strong ("Led the setup of cross-functional team based development"), Business impact Strong ("$12M+ cost savings", "$55M worth of training software development"), Depth mixed (mechanical/optical design evidence is outside the software rubric — noted as a boundary); AI Absent; Best practices Fix (filler, "Responsible for", no outcome verbs on several bullets).
@@ -67,8 +67,8 @@ Golden rows are in `../../corpus/MANIFEST.md`.
 | `020-platform-sre-cloud-r601.txt` (DevOps) | Platform/SRE, IC | Platform, IC | PASS |
 | `900-sre-senior-github.txt` (SRE) | SRE/Platform, IC, Senior+ | SRE, IC, Senior | PASS |
 | `901-product-founder-pm-github.txt` (PM) | Product, founder | Product, founder | PASS |
-| `115-director-r1790.txt` (Director) | Leader, Director | Leader, Director | PASS |
-| `116-eng-manager-r1800.txt` (Systems Eng Mgr) | Leader, Manager+ | Leader, Senior Manager | PASS |
+| `108-director-r1742.txt` (Director) | Leader, Director | Leader, Director | PASS |
+| `115-eng-manager-r1801.txt` (Systems Eng Mgr) | Leader, Manager+ | Leader, Senior Manager | PASS |
 | `050-out-of-scope-r1.txt` (Data Science) | OUT OF SCOPE | Out of scope, boundary stated | PASS |
 
 **7/7 pass.** No golden detection mismatches; every guard held; the out-of-scope file had its boundary stated first and was not leveled. Two observations worth carrying: (1) corpus-2484 resumes frequently carry duplicated blocks and "Company Name" placeholders — a recurring ATS Fix worth checking for in future runs; (2) the two GitHub resumes are the cleanest formatting in the set and make good positive controls.

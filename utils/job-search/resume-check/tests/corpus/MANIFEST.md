@@ -2,7 +2,7 @@
 
 One row per stored resume. **Golden detection** is the expected read of the resume (discipline / track / level, or the scope boundary). **Golden guards** apply to every row. A run that deviates from its golden detection, or breaks a guard, is a regression — see `README.md`.
 
-Generated 2026-11-18 · **118 resumes** · English only · one CV per file · read-only.
+Generated 2026-11-18 · **117 resumes** · English only · one CV per file · read-only.
 
 ## Coverage
 
@@ -12,11 +12,11 @@ Generated 2026-11-18 · **118 resumes** · English only · one CV per file · re
 | Data | 19 |
 | Platform / SRE / Cloud | 7 |
 | Security | 7 |
-| Leader (Manager → Director → VP / CTO) | 19 |
+| Leader (Manager → Director → VP / CTO) | 18 |
 | Product / Program | 9 |
 | Out of scope (boundary tests) | 32 |
 | Self-published (GitHub) | 2 |
-| **Total** | **118** |
+| **Total** | **117** |
 
 ## The register
 
@@ -96,7 +96,7 @@ Generated 2026-11-18 · **118 resumes** · English only · one CV per file · re
 | `resumes/094-security-r262.txt` | corpus-2484 row 262 | INFORMATION TECHNOLOGY SPECIALIST (INFOSEC) Summary Retired Informatio | Security, IC |
 | `resumes/114-security-r2329.txt` | corpus-2484 row 2329 | SENIOR NETWORK SECURITY ENGINEER https://www.linkedin.com/in/dilip-nr/ | Security, IC |
 
-### Leader (Manager → Director → VP / CTO) (19)
+### Leader (Manager → Director → VP / CTO) (18)
 
 | File | Source | Label | Golden detection |
 |---|---|---|---|
@@ -117,8 +117,7 @@ Generated 2026-11-18 · **118 resumes** · English only · one CV per file · re
 | `resumes/107-eng-manager-r1714.txt` | corpus-2484 row 1714 | ENGINEERING MANAGER Experience Engineering Manager February 2008 to Cu | Leader track, Manager |
 | `resumes/108-director-r1742.txt` | corpus-2484 row 1742 | DIRECTOR OF ENGINEERING Summary Director / Vice President of Operation | Director / Leader track |
 | `resumes/110-director-r1789.txt` | corpus-2484 row 1789 | DIRECTOR OF ENGINEERING Summary Manager/Director - Engineering/Researc | Director / Leader track |
-| `resumes/115-director-r1790.txt` | corpus-2484 row 1790 | ENGINEERING TEAM LEAD Career Overview Engineering Team Lead with years | Director of Engineering (software companies; CTO/VP history) — Leader track, Director |
-| `resumes/116-eng-manager-r1800.txt` | corpus-2484 row 1800 | ENGINEERING OPERATIONS DIRECTOR Executive Profile Senior Software Exec | Systems Engineering Manager (defense simulation; 70 engineers) — Leader track, Manager/Senior Manager; hardware–software domain noted |
+| `resumes/115-eng-manager-r1801.txt` | corpus-2484 row 1801 | SYSTEMS ENGINEERING MANAGER Summary Multifaceted Technical Manager wit | Systems Engineering Manager (defense simulation; 70 engineers) — Leader track, Manager/Senior Manager; hardware–software domain noted |
 
 ### Product / Program (9)
 
