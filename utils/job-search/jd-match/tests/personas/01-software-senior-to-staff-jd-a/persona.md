@@ -1,4 +1,4 @@
-# Persona 01: Jordan Avery — JD A
+# Persona 01: Jordan Avery, JD A
 
 Fictional.
 
@@ -11,7 +11,7 @@ Fictional.
 | Region | US |
 | Authorized to work in the US | Yes |
 
-No target is asked for — the JD sets its own bar.
+No target is asked for, the JD sets its own bar.
 
 ## Workflow
 `01-match/match.md`

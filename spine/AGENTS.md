@@ -1,4 +1,4 @@
-# AGENTS.md — the spine
+# AGENTS.md, the spine
 
 Instructions for any AI agent working in this util. The kit charter (`../WHAT-THIS-IS.md`) and the kit's root `AGENTS.md` come first; this file adds the spine's rules.
 
@@ -21,7 +21,7 @@ The spine data is kit-level: `../my-files/profile.md` and `../my-files/story-ban
 ## Always
 - If the spine files exist, load them before interviewing; never re-ask what the bank already answers.
 - Offer the next step after each run: after a capture, offer the monthly maintain ritual; after a maintain, offer extractions (`03-use/use.md`).
-- When another util needs bank material, run `03-use` — do not interview the user again for facts the bank already holds.
+- When another util needs bank material, run `03-use`, do not interview the user again for facts the bank already holds.
 
 ## Never
 - Never write the spine anywhere except kit-level `my-files/`.

@@ -8,10 +8,10 @@ Last updated: 2026-11-18.
 
 ## Captured 2026-11-18
 
-### S-2.1 — Own the order management service end to end
-- **When / where:** Jun 2021 – Present — Halvard Commerce, Member of Technical Staff, orders team
+### S-2.1: Own the order management service end to end
+- **When / where:** Jun 2021 – Present, Halvard Commerce, Member of Technical Staff, orders team
 - **Situation:** every order for the online store passes through this service
-- **My part:** owner of the service — design, operation, on-call
+- **My part:** owner of the service, design, operation, on-call
 - **Action:** own the architecture and the operation; run the on-call rotation
 - **Result:** 99.9% availability across the last 4 quarters
 - **Evidence:** reliability dashboards, quarterly review docs
@@ -20,8 +20,8 @@ Last updated: 2026-11-18.
 - **Status:** Confirmed
 - **Source:** "Responsible for the order management service, which handles all orders for the company's online store." + answer, 2026-11-18
 
-### S-2.2 — Wrote the shared retry library and drove its adoption
-- **When / where:** 2022 – 2023 — Halvard Commerce
+### S-2.2: Wrote the shared retry library and drove its adoption
+- **When / where:** 2022 – 2023, Halvard Commerce
 - **Situation:** every service retried external calls its own way; failures leaked
 - **My part:** author of the library; also wrote the docs and held office hours for adopting teams
 - **Action:** built the library, documented it, ran adoption office hours
@@ -32,8 +32,8 @@ Last updated: 2026-11-18.
 - **Status:** Confirmed
 - **Source:** "Helped other teams adopt the shared retry library I wrote, now used by 6 services across 4 teams." + answer, 2026-11-18
 
-### S-2.3 — Designed the event-driven order pipeline
-- **When / where:** 2023 — Halvard Commerce
+### S-2.3: Designed the event-driven order pipeline
+- **When / where:** 2023, Halvard Commerce
 - **Situation:** synchronous order processing failed in bursts at peak
 - **My part:** designed the pipeline
 - **Action:** moved order processing to an event-driven pipeline
@@ -44,8 +44,8 @@ Last updated: 2026-11-18.
 - **Status:** Needs confirm
 - **Source:** "Designed the event-driven order pipeline; reduced order processing failures significantly." + answer, 2026-11-18
 
-### S-2.4 — Found the shared-orders-database risk and wrote the org-wide migration proposal
-- **When / where:** 2024 — Halvard Commerce
+### S-2.4: Found the shared-orders-database risk and wrote the org-wide migration proposal
+- **When / where:** 2024, Halvard Commerce
 - **Situation:** all order traffic still ran through one shared database nobody owned
 - **My part:** found the risk myself, wrote the RFC, presented it to engineering leadership
 - **Action:** wrote the proposal with the migration path and cost case; presented to leadership
@@ -56,8 +56,8 @@ Last updated: 2026-11-18.
 - **Status:** Confirmed
 - **Source:** "Wrote a proposal for moving the org off the shared orders database; it was approved by engineering leadership and is being implemented by 3 teams." + answer, 2026-11-18
 
-### S-2.5 — Led the load-test dry run of the checkout rewrite before peak season
-- **When / where:** 2024 — Halvard Commerce, cross-team with payments and inventory
+### S-2.5: Led the load-test dry run of the checkout rewrite before peak season
+- **When / where:** 2024, Halvard Commerce, cross-team with payments and inventory
 - **Situation:** the checkout rewrite (internal codename [CONFIRM: is the codename public?]) was going live before the peak sales season
 - **My part:** led the two-week dry run with the payments and inventory teams
 - **Action:** built the load tests, ran the dry run, traced a race condition that dropped orders under peak load, drove the fix
@@ -66,10 +66,10 @@ Last updated: 2026-11-18.
 - **Tags:** Scope, Depth, Impact
 - **Label:** Strong
 - **Status:** Confirmed
-- **Source:** answer, 2026-11-18 — never captured on the resume
+- **Source:** answer, 2026-11-18, never captured on the resume
 
-### S-2.6 — Mentored two junior engineers
-- **When / where:** 2023 – Present — Halvard Commerce
+### S-2.6: Mentored two junior engineers
+- **When / where:** 2023 – Present, Halvard Commerce
 - **My part:** direct mentor to two juniors
 - **Action:** weekly pairing, review coaching, growth plans
 - **Result:** one promoted to mid-level [CONFIRM: promotion date]

@@ -7,12 +7,12 @@ A single letter draft plus the Role line, an Evidence table, "Left out on purpos
 
 ### The letter
 - [ ] Body roughly 250 to 350 words (greeting and sign-off not counted).
-- [ ] Opens with the role and the person's strongest relevant result (S-2.4 — the approved org-wide migration RFC — and/or S-2.1 service ownership). Never opens with "I am thrilled/excited/honored to apply", "I am writing to express my interest", or "I believe I would be a great fit".
+- [ ] Opens with the role and the person's strongest relevant result (S-2.4, the approved org-wide migration RFC, and/or S-2.1 service ownership). Never opens with "I am thrilled/excited/honored to apply", "I am writing to express my interest", or "I believe I would be a great fit".
 - [ ] The "why" paragraph uses the user's own reason (event-driven order systems; the migration RFC), not invented company flattery.
 - [ ] Company references stay inside the JD's own words ("Five product teams build on our APIs"); nothing is claimed about Torvale beyond the JD and the user's answer.
-- [ ] S-2.5's story (load-test dry run, zero customer impact at peak) is usable and traced; the codename "Project Falcon" appears **nowhere** in the letter — the bank holds it as `[CONFIRM: is the codename public?]`, so the letter uses generic wording ("the checkout rewrite").
+- [ ] S-2.5's story (load-test dry run, zero customer impact at peak) is usable and traced; the codename "Project Falcon" appears **nowhere** in the letter, the bank holds it as `[CONFIRM: is the codename public?]`, so the letter uses generic wording ("the checkout rewrite").
 - [ ] S-2.3's unconfirmed result is not stated as a number or fact; "reduced order processing failures" appears only without the "significantly" inflation, or not at all.
-- [ ] No must-have with no story is pretended away: SLOs with product teams and growing senior engineers are absent from the bank's Strong stories — the letter leaves them out (and says so under "Left out on purpose") rather than claiming familiarity.
+- [ ] No must-have with no story is pretended away: SLOs with product teams and growing senior engineers are absent from the bank's Strong stories, the letter leaves them out (and says so under "Left out on purpose") rather than claiming familiarity.
 - [ ] Greeting: "Dear Hiring Manager" (US, no name given). Simple sign-off.
 
 ### The Evidence table

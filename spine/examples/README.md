@@ -1,6 +1,6 @@
 # Spine examples
 
-One fictional person — Maya R. — through the spine format. Her material is invented; any resemblance to a real person is accidental. Copy the shapes, never the content.
+One fictional person. Maya R., through the spine format. Her material is invented; any resemblance to a real person is accidental. Copy the shapes, never the content.
 
 | File | What it shows |
 |---|---|

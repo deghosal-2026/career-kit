@@ -14,7 +14,7 @@ Fictional.
 ## Workflow
 `01-check/check.md`
 
-**No story bank** — this persona runs the workflow's no-bank path: the check still runs in full, the summary says the spine cross-check was skipped, and capture is offered at the end.
+**No story bank**. This persona runs the workflow's no-bank path: the check still runs in full, the summary says the spine cross-check was skipped, and capture is offered at the end.
 
 ## Scenario
 Fifteen years in industry; an infrastructure engineer who moved into management at the same company in 2021. A strong one-team manager: grew the build and deploy team, ran an org-wide migration, turned a ticket queue into self-service. Since mid-2025 she has also had a second team, reporting to her through its tech lead, and she wrote next year's headcount plan for both teams (6 roles, approved by her VP). The resume words the second team as "look after" and the headcount plan as "a hiring spreadsheet". Her best cross-org work (roadmap built with product engineering directors, CI chargeback with finance) is buried in one long bullet.

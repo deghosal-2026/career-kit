@@ -3,10 +3,10 @@
 Version 0.1 (2026-11-18). Requires: `00-principles.md`.
 
 ## 1. Purpose
-The rules every consumer — a career-kit util, an agent, or the person — follows when turning bank stories into something else. This is what makes the kit one system instead of a folder of tools: every output is an extraction from one spine.
+The rules every consumer, a career-kit util, an agent, or the person, follows when turning bank stories into something else. This is what makes the kit one system instead of a folder of tools: every output is an extraction from one spine.
 
 **Use it when:** any util needs career facts, or the user asks for a resume line, an interview answer, promotion evidence, or a proof point.
-**Don't use it when:** the fact is not in the bank — say so and route back to capture or maintain.
+**Don't use it when:** the fact is not in the bank, say so and route back to capture or maintain.
 
 ## 2. What to paste (chat users)
 
@@ -50,7 +50,7 @@ Agents read files 1–2 from the repo and the spine from `../my-files/`.
 [the drafted lines / answers / evidence map, each citing its story ID]
 
 **Left out on purpose**
-[stories that did not fit, and why — e.g. label Weak and unresolved]
+[stories that did not fit, and why, e.g. label Weak and unresolved]
 ```
 
 ## 6. Self-check before answering

@@ -131,7 +131,7 @@ Both work at org scale. The difference is the kind of authority.
 
 For the person aiming at the next level, this is how promotion committees usually think:
 
-- **Levels are conservative.** Promotion typically lags demonstrated performance: the committee wants the next level's scope already shown, consistently, over time — not promised. That lag is risk-aversion, not a slight.
+- **Levels are conservative.** Promotion typically lags demonstrated performance: the committee wants the next level's scope already shown, consistently, over time, not promised. That lag is risk-aversion, not a slight.
 - **Sustained scope beats a heroic quarter.** A one-off Staff-sized project after a year of Senior-sized work usually reads as Senior-with-a-highlight, not Staff.
 - **The two common errors mirror each other.** A bigger title for unchanged scope is the most common overshoot; genuinely grown scope under an unchanged title is the most common undersell. Evidence, not the title, decides which one a resume shows.
 - **Years earn nothing by themselves.** In selection research, years of experience is among the weakest predictors of performance; scope and reach decide the level.

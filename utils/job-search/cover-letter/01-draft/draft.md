@@ -4,7 +4,7 @@
 Drafts a short, specific cover letter for one job from your story bank and the job description, using only your real evidence and facts you give about the company. Shows which story backs each claim. It is a draft: you review it and edit it.
 
 **Use it when:** an application asks for a cover letter, or you want a short note to a hiring manager.
-**Don't use it when:** you haven't checked your fit yet. Run `utils/job-search/jd-match/` first — this workflow uses its result if you have it. And it needs the spine: no bank, no letter (route to `spine/` capture first).
+**Don't use it when:** you haven't checked your fit yet. Run `utils/job-search/jd-match/` first, this workflow uses its result if you have it. And it needs the spine: no bank, no letter (route to `spine/` capture first).
 
 ## 2. What to paste
 Paste in this order. The assistant must ask for anything missing before starting.
@@ -39,9 +39,9 @@ Structure, roughly 250 to 350 words of body (greeting and sign-off not counted):
 
 | Part | Content |
 |---|---|
-| **Opening** (2 to 3 sentences) | The role, and one line on why this person fits: their level and their strongest relevant result. Then the specific reason for this company — from the user's "why" answer and the JD's own words only. No generic flattery |
+| **Opening** (2 to 3 sentences) | The role, and one line on why this person fits: their level and their strongest relevant result. Then the specific reason for this company: from the user's "why" answer and the JD's own words only. No generic flattery |
 | **Evidence** (1 or 2 short paragraphs) | The 2 or 3 proof points, each tied to what the JD needs, with outcomes and numbers where the bank holds them |
-| **Change** (optional, 1 to 3 sentences) | Only if the user asked. For a move between tracks or disciplines: a simple arc — what they did, the bridge story that already looks like the target role, why this role is the next step |
+| **Change** (optional, 1 to 3 sentences) | Only if the user asked. For a move between tracks or disciplines: a simple arc: what they did, the bridge story that already looks like the target role, why this role is the next step |
 | **Close** (1 to 2 sentences) | Interest in a conversation. No pleading, no "at your earliest convenience" |
 
 Style:

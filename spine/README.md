@@ -1,6 +1,6 @@
 # The spine: story bank
 
-Career-kit's evidence core: one profile and one bank of stories that record what you actually did, every fact sourced. Every util reads the spine instead of re-asking you. A resume line, a STAR answer, a promotion case, a cover-letter proof point — all extractions from the same bank.
+Career-kit's evidence core: one profile and one bank of stories that record what you actually did, every fact sourced. Every util reads the spine instead of re-asking you. A resume line, a STAR answer, a promotion case, a cover-letter proof point, all extractions from the same bank.
 
 This directory holds the util. The spine **data** lives in `my-files/` at the kit root (git-ignored) so every util shares it: `my-files/profile.md` and `my-files/story-bank.md`.
 
@@ -25,7 +25,7 @@ This directory holds the util. The spine **data** lives in `my-files/` at the ki
 ## How to use
 
 - **In any AI chat:** paste `START.md` and follow what it asks.
-- **With an AI agent that reads files:** say "build my story bank" — the agent follows `AGENTS.md`.
+- **With an AI agent that reads files:** say "build my story bank", the agent follows `AGENTS.md`.
 
 ## Status
 

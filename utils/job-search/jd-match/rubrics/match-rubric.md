@@ -58,7 +58,7 @@ Always show the tally behind the verdict, with gap types: "Must-haves: 5 Strong,
 
 ## 5. Several JDs
 - **Recurring requirements:** what most of the JDs ask for. These matter most for this search.
-- **Recurring gaps:** gaps that show up in most JDs. These are worth fixing first — in the bank, in skills, or in targeting.
+- **Recurring gaps:** gaps that show up in most JDs. These are worth fixing first, in the bank, in skills, or in targeting.
 - **Best fits:** the JDs in order of verdict, with one line on why.
 
 ## 6. Honest use of JD terms

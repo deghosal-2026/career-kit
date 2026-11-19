@@ -27,7 +27,7 @@ If the type depends on a missing fact, give the likely type and say what would c
 |---|---|
 | **OK** | Meets the rule |
 | **Fix** | Breaks the rule and is likely to cause a problem |
-| **Check** | Can't be judged from pasted text — the user must verify in the original file |
+| **Check** | Can't be judged from pasted text: the user must verify in the original file |
 
 **Check** is only for what cannot be seen in pasted text (fonts, columns, headers and footers, text boxes). Text that visibly leaked from a header or footer is a **Fix**.
 

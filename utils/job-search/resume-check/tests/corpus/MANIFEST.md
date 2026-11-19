@@ -1,6 +1,6 @@
-# Corpus manifest — the golden register
+# Corpus manifest, the golden register
 
-One row per stored resume. **Golden detection** is the expected read of the resume (discipline / track / level, or the scope boundary). **Golden guards** apply to every row. A run that deviates from its golden detection, or breaks a guard, is a regression — see `README.md`.
+One row per stored resume. **Golden detection** is the expected read of the resume (discipline / track / level, or the scope boundary). **Golden guards** apply to every row. A run that deviates from its golden detection, or breaks a guard, is a regression, see `README.md`.
 
 Generated 2026-11-18 · **117 resumes** · English only · one CV per file · read-only.
 
@@ -117,15 +117,15 @@ Generated 2026-11-18 · **117 resumes** · English only · one CV per file · re
 | `resumes/107-eng-manager-r1714.txt` | corpus-2484 row 1714 | ENGINEERING MANAGER Experience Engineering Manager February 2008 to Cu | Leader track, Manager |
 | `resumes/108-director-r1742.txt` | corpus-2484 row 1742 | DIRECTOR OF ENGINEERING Summary Director / Vice President of Operation | Director / Leader track |
 | `resumes/110-director-r1789.txt` | corpus-2484 row 1789 | DIRECTOR OF ENGINEERING Summary Manager/Director - Engineering/Researc | Director / Leader track |
-| `resumes/115-eng-manager-r1801.txt` | corpus-2484 row 1801 | SYSTEMS ENGINEERING MANAGER Summary Multifaceted Technical Manager wit | Systems Engineering Manager (defense simulation; 70 engineers) — Leader track, Manager/Senior Manager; hardware–software domain noted |
+| `resumes/115-eng-manager-r1801.txt` | corpus-2484 row 1801 | SYSTEMS ENGINEERING MANAGER Summary Multifaceted Technical Manager wit | Systems Engineering Manager (defense simulation; 70 engineers): Leader track, Manager/Senior Manager; hardware–software domain noted |
 
 ### Product / Program (9)
 
 | File | Source | Label | Golden detection |
 |---|---|---|---|
-| `resumes/066-product-program-r680.txt` | corpus-962 row 680 | PMO | TPM-adjacent (program management) — judge on delivery evidence |
-| `resumes/067-product-program-r681.txt` | corpus-962 row 681 | PMO | TPM-adjacent (program management) — judge on delivery evidence |
-| `resumes/068-product-program-r682.txt` | corpus-962 row 682 | PMO | TPM-adjacent (program management) — judge on delivery evidence |
+| `resumes/066-product-program-r680.txt` | corpus-962 row 680 | PMO | TPM-adjacent (program management): judge on delivery evidence |
+| `resumes/067-product-program-r681.txt` | corpus-962 row 681 | PMO | TPM-adjacent (program management): judge on delivery evidence |
+| `resumes/068-product-program-r682.txt` | corpus-962 row 682 | PMO | TPM-adjacent (program management): judge on delivery evidence |
 | `resumes/085-program-manager-r195.txt` | corpus-2484 row 195 | PROGRAM MANAGER & DESIGNER Professional Summary A talented program des | Program management (TPM-adjacent) |
 | `resumes/097-program-manager-r874.txt` | corpus-2484 row 874 | PROGRAM MANAGER Professional Summary Program Managers working in a wit | Program management (TPM-adjacent) |
 | `resumes/098-program-manager-r883.txt` | corpus-2484 row 883 | PROGRAM MANAGER Highlights Microsoft Outlook and Office Suite Salesfor | Program management (TPM-adjacent) |
@@ -137,38 +137,38 @@ Generated 2026-11-18 · **117 resumes** · English only · one CV per file · re
 
 | File | Source | Label | Golden detection |
 |---|---|---|---|
-| `resumes/050-out-of-scope-r1.txt` | corpus-962 row 1 | Data Science | OUT OF SCOPE (data science / ML) — state the boundary first; craft checks only |
-| `resumes/051-out-of-scope-r3.txt` | corpus-962 row 3 | Data Science | OUT OF SCOPE (data science / ML) — state the boundary first; craft checks only |
-| `resumes/052-out-of-scope-r4.txt` | corpus-962 row 4 | Data Science | OUT OF SCOPE (data science / ML) — state the boundary first; craft checks only |
-| `resumes/053-out-of-scope-r894.txt` | corpus-962 row 894 | Testing | OUT OF SCOPE (QA) — state the boundary; craft checks only |
-| `resumes/054-out-of-scope-r895.txt` | corpus-962 row 895 | Testing | OUT OF SCOPE (QA) — state the boundary; craft checks only |
-| `resumes/055-out-of-scope-r896.txt` | corpus-962 row 896 | Testing | OUT OF SCOPE (QA) — state the boundary; craft checks only |
-| `resumes/056-out-of-scope-r456.txt` | corpus-962 row 456 | Automation Testing | OUT OF SCOPE (QA) — state the boundary; craft checks only |
-| `resumes/057-out-of-scope-r457.txt` | corpus-962 row 457 | Automation Testing | OUT OF SCOPE (QA) — state the boundary; craft checks only |
-| `resumes/058-out-of-scope-r432.txt` | corpus-962 row 432 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care — state the boundary |
-| `resumes/059-out-of-scope-r433.txt` | corpus-962 row 433 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care — state the boundary |
-| `resumes/060-out-of-scope-r434.txt` | corpus-962 row 434 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care — state the boundary |
-| `resumes/061-out-of-scope-r404.txt` | corpus-962 row 404 | Business Analyst | OUT OF SCOPE (business analysis) — craft checks only |
-| `resumes/062-out-of-scope-r405.txt` | corpus-962 row 405 | Business Analyst | OUT OF SCOPE (business analysis) — craft checks only |
-| `resumes/063-out-of-scope-r406.txt` | corpus-962 row 406 | Business Analyst | OUT OF SCOPE (business analysis) — craft checks only |
-| `resumes/064-out-of-scope-r141.txt` | corpus-962 row 141 | Web Designing | OUT OF SCOPE (design) — craft checks only |
-| `resumes/065-out-of-scope-r142.txt` | corpus-962 row 142 | Web Designing | OUT OF SCOPE (design) — craft checks only |
-| `resumes/069-out-of-scope-r42.txt` | corpus-962 row 42 | HR | OUT OF SCOPE — craft checks only |
-| `resumes/070-out-of-scope-r85.txt` | corpus-962 row 85 | Advocate | OUT OF SCOPE — craft checks only |
-| `resumes/071-out-of-scope-r89.txt` | corpus-962 row 89 | Advocate | OUT OF SCOPE — craft checks only |
-| `resumes/072-out-of-scope-r105.txt` | corpus-962 row 105 | Arts | OUT OF SCOPE — craft checks only |
-| `resumes/073-out-of-scope-r107.txt` | corpus-962 row 107 | Arts | OUT OF SCOPE — craft checks only |
-| `resumes/074-out-of-scope-r228.txt` | corpus-962 row 228 | Sales | OUT OF SCOPE — craft checks only |
-| `resumes/075-out-of-scope-r229.txt` | corpus-962 row 229 | Sales | OUT OF SCOPE — craft checks only |
-| `resumes/076-out-of-scope-r268.txt` | corpus-962 row 268 | Health and fitness | OUT OF SCOPE — craft checks only |
-| `resumes/077-out-of-scope-r269.txt` | corpus-962 row 269 | Health and fitness | OUT OF SCOPE — craft checks only |
-| `resumes/078-out-of-scope-r186.txt` | corpus-962 row 186 | Mechanical Engineer | OUT OF SCOPE — craft checks only |
-| `resumes/079-out-of-scope-r187.txt` | corpus-962 row 187 | Mechanical Engineer | OUT OF SCOPE — craft checks only |
-| `resumes/080-out-of-scope-r296.txt` | corpus-962 row 296 | Civil Engineer | OUT OF SCOPE — craft checks only |
-| `resumes/081-out-of-scope-r298.txt` | corpus-962 row 298 | Civil Engineer | OUT OF SCOPE — craft checks only |
-| `resumes/082-out-of-scope-r482.txt` | corpus-962 row 482 | Electrical Engineering | OUT OF SCOPE — craft checks only |
-| `resumes/083-out-of-scope-r484.txt` | corpus-962 row 484 | Electrical Engineering | OUT OF SCOPE — craft checks only |
-| `resumes/084-out-of-scope-r513.txt` | corpus-962 row 513 | Operations Manager | OUT OF SCOPE — craft checks only |
+| `resumes/050-out-of-scope-r1.txt` | corpus-962 row 1 | Data Science | OUT OF SCOPE (data science / ML): state the boundary first; craft checks only |
+| `resumes/051-out-of-scope-r3.txt` | corpus-962 row 3 | Data Science | OUT OF SCOPE (data science / ML): state the boundary first; craft checks only |
+| `resumes/052-out-of-scope-r4.txt` | corpus-962 row 4 | Data Science | OUT OF SCOPE (data science / ML): state the boundary first; craft checks only |
+| `resumes/053-out-of-scope-r894.txt` | corpus-962 row 894 | Testing | OUT OF SCOPE (QA): state the boundary; craft checks only |
+| `resumes/054-out-of-scope-r895.txt` | corpus-962 row 895 | Testing | OUT OF SCOPE (QA): state the boundary; craft checks only |
+| `resumes/055-out-of-scope-r896.txt` | corpus-962 row 896 | Testing | OUT OF SCOPE (QA): state the boundary; craft checks only |
+| `resumes/056-out-of-scope-r456.txt` | corpus-962 row 456 | Automation Testing | OUT OF SCOPE (QA): state the boundary; craft checks only |
+| `resumes/057-out-of-scope-r457.txt` | corpus-962 row 457 | Automation Testing | OUT OF SCOPE (QA): state the boundary; craft checks only |
+| `resumes/058-out-of-scope-r432.txt` | corpus-962 row 432 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care: state the boundary |
+| `resumes/059-out-of-scope-r433.txt` | corpus-962 row 433 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care: state the boundary |
+| `resumes/060-out-of-scope-r434.txt` | corpus-962 row 434 | SAP Developer | Likely OUT OF SCOPE (enterprise SAP) or software with care: state the boundary |
+| `resumes/061-out-of-scope-r404.txt` | corpus-962 row 404 | Business Analyst | OUT OF SCOPE (business analysis): craft checks only |
+| `resumes/062-out-of-scope-r405.txt` | corpus-962 row 405 | Business Analyst | OUT OF SCOPE (business analysis): craft checks only |
+| `resumes/063-out-of-scope-r406.txt` | corpus-962 row 406 | Business Analyst | OUT OF SCOPE (business analysis): craft checks only |
+| `resumes/064-out-of-scope-r141.txt` | corpus-962 row 141 | Web Designing | OUT OF SCOPE (design): craft checks only |
+| `resumes/065-out-of-scope-r142.txt` | corpus-962 row 142 | Web Designing | OUT OF SCOPE (design): craft checks only |
+| `resumes/069-out-of-scope-r42.txt` | corpus-962 row 42 | HR | OUT OF SCOPE: craft checks only |
+| `resumes/070-out-of-scope-r85.txt` | corpus-962 row 85 | Advocate | OUT OF SCOPE: craft checks only |
+| `resumes/071-out-of-scope-r89.txt` | corpus-962 row 89 | Advocate | OUT OF SCOPE: craft checks only |
+| `resumes/072-out-of-scope-r105.txt` | corpus-962 row 105 | Arts | OUT OF SCOPE: craft checks only |
+| `resumes/073-out-of-scope-r107.txt` | corpus-962 row 107 | Arts | OUT OF SCOPE: craft checks only |
+| `resumes/074-out-of-scope-r228.txt` | corpus-962 row 228 | Sales | OUT OF SCOPE: craft checks only |
+| `resumes/075-out-of-scope-r229.txt` | corpus-962 row 229 | Sales | OUT OF SCOPE: craft checks only |
+| `resumes/076-out-of-scope-r268.txt` | corpus-962 row 268 | Health and fitness | OUT OF SCOPE: craft checks only |
+| `resumes/077-out-of-scope-r269.txt` | corpus-962 row 269 | Health and fitness | OUT OF SCOPE: craft checks only |
+| `resumes/078-out-of-scope-r186.txt` | corpus-962 row 186 | Mechanical Engineer | OUT OF SCOPE: craft checks only |
+| `resumes/079-out-of-scope-r187.txt` | corpus-962 row 187 | Mechanical Engineer | OUT OF SCOPE: craft checks only |
+| `resumes/080-out-of-scope-r296.txt` | corpus-962 row 296 | Civil Engineer | OUT OF SCOPE: craft checks only |
+| `resumes/081-out-of-scope-r298.txt` | corpus-962 row 298 | Civil Engineer | OUT OF SCOPE: craft checks only |
+| `resumes/082-out-of-scope-r482.txt` | corpus-962 row 482 | Electrical Engineering | OUT OF SCOPE: craft checks only |
+| `resumes/083-out-of-scope-r484.txt` | corpus-962 row 484 | Electrical Engineering | OUT OF SCOPE: craft checks only |
+| `resumes/084-out-of-scope-r513.txt` | corpus-962 row 513 | Operations Manager | OUT OF SCOPE: craft checks only |
 
 ### Self-published (GitHub) (2)
 

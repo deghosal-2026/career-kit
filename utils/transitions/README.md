@@ -1,6 +1,6 @@
 # Transitions
 
-Utils for the non-linear parts of a career — the moments generic advice handles worst.
+Utils for the non-linear parts of a career, the moments generic advice handles worst.
 
 | Util | What it does | Status |
 |---|---|---|

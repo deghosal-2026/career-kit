@@ -1,8 +1,8 @@
 # utils/
 
-Career-kit's lifecycle utils, grouped by phase. Phases are neighborhoods of the catalog, not a sequence — a person may be mid-growth while planning a move. Every util reads the spine (`../spine/`) instead of re-asking the user for career facts.
+Career-kit's lifecycle utils, grouped by phase. Phases are neighborhoods of the catalog, not a sequence, a person may be mid-growth while planning a move. Every util reads the spine (`../spine/`) instead of re-asking the user for career facts.
 
-Each util is sovereign: its own principles, workflows, rubrics, examples, tests, and its own `my-files/` scratch space. Utils are built when a real need appears, never in advance — see [`../CONVENTIONS.md`](../CONVENTIONS.md).
+Each util is sovereign: its own principles, workflows, rubrics, examples, tests, and its own `my-files/` scratch space. Utils are built when a real need appears, never in advance, see [`../CONVENTIONS.md`](../CONVENTIONS.md).
 
 | Phase | Covers | Built so far |
 |---|---|---|

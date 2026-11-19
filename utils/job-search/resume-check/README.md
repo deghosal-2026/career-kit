@@ -1,6 +1,6 @@
 # Resume check
 
-Judges one pasted resume the way a parser, a recruiter, and a level rubric will: what survives parsing, what the top third says in a few seconds, what level it reads as against `shared/levels.md`, what its AI and agentic work shows, and where the craft breaks. Then it crosses the resume against the spine: a Strong story the bank holds that the resume never shows is this check's best finding. It also maps the resume to LinkedIn — which sections belong on your profile — and, if you hand it your downloaded LinkedIn profile (Save-to-PDF text), marks every LinkedIn section present-strong / present-weak / missing and gives you a prioritized "sections to upload" list, each item sourced from your resume or your bank, public-safe. Fixed labels, no scores; you decide what to change and what to upload.
+Judges one pasted resume the way a parser, a recruiter, and a level rubric will: what survives parsing, what the top third says in a few seconds, what level it reads as against `shared/levels.md`, what its AI and agentic work shows, and where the craft breaks. Then it crosses the resume against the spine: a Strong story the bank holds that the resume never shows is this check's best finding. It also maps the resume to LinkedIn, which sections belong on your profile, and, if you hand it your downloaded LinkedIn profile (Save-to-PDF text), marks every LinkedIn section present-strong / present-weak / missing and gives you a prioritized "sections to upload" list, each item sourced from your resume or your bank, public-safe. Fixed labels, no scores; you decide what to change and what to upload.
 
 Who it is for: ICs and leaders in the disciplines the kit covers, roughly mid-level through Principal / Director (see the charter's audience line).
 
@@ -22,6 +22,6 @@ Also uses: `shared/labels.md`, `shared/levels.md`, `shared/ai-signals.md`, the l
 ## How to use
 
 - **In any AI chat:** paste `START.md` and follow what it asks.
-- **With an AI agent that reads files:** say "check my resume" — the agent follows `AGENTS.md`.
+- **With an AI agent that reads files:** say "check my resume", the agent follows `AGENTS.md`.
 
-Status: Ready. Version 0.1 (2026-11-18) — LinkedIn cross-reference added the same day.
+Status: Ready. Version 0.1 (2026-11-18). LinkedIn cross-reference added the same day.

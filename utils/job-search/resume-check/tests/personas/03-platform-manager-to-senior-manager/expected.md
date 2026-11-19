@@ -46,7 +46,7 @@ Expected ratings against Senior Manager (`shared/engineering/platform/leader/sen
 - [ ] Too many small bullets in the current role; activity counts ("Closed 1,400+ tickets", "Shipped 23 features") crowd out outcomes: **Fix**.
 - [ ] Leader roles should state team size and structure in the first bullet or a context line; the older lead role does not.
 - [ ] "Team Lead, DevOps" is a role, not a level (`shared/levels.md` titles); suggest stating whether she had reports: **Check**.
-- [ ] Region: US — no regional items needed; nothing marked `[OPTIONAL]` for region here beyond what the rubric already flags.
+- [ ] Region: US, no regional items needed; nothing marked `[OPTIONAL]` for region here beyond what the rubric already flags.
 
 ### Conflicts
 - [ ] Summary says "managing 14 engineers", but the bullets add to 13 (8 plus 5): listed and asked about.
@@ -63,7 +63,7 @@ Expected ratings against Senior Manager (`shared/engineering/platform/leader/sen
 ## Must recognise as good
 - [ ] Team size, charter, and users stated in the first bullet ("8 engineers owning CI, deploy pipelines and artifact storage for ~700 developers").
 - [ ] People outcomes with numbers: grew the team from 4 to 8, hired 5, promoted 2, no regretted attrition in 3 years.
-- [ ] Self-service replacing tickets with a before and after (about 140 a month to 30) and time freed for roadmap work — the Platform README's signal to look for.
+- [ ] Self-service replacing tickets with a before and after (about 140 a month to 30) and time freed for roadmap work, the Platform README's signal to look for.
 - [ ] Org-wide adoption with a delivery metric (92% of services; lead time from 3 days to 6 hours).
 - [ ] Contact line is plain text with a full profile address.
 

@@ -1,6 +1,6 @@
 # ATS parsing and screening rules
 
-Reference for the resume check (ATS parsing). Screening tooling changed substantially between 2024 and 2026, so review this file at least twice a year. Describes what applicant tracking systems — and the AI layers now stacked on top of them — commonly handle badly, so a resume's text survives parsing and can be found in recruiter searches.
+Reference for the resume check (ATS parsing). Screening tooling changed substantially between 2024 and 2026, so review this file at least twice a year. Describes what applicant tracking systems, and the AI layers now stacked on top of them, commonly handle badly, so a resume's text survives parsing and can be found in recruiter searches.
 
 As everywhere in career-kit: no score. No one outside a vendor can see exactly how a given system parses or ranks a file, and anything that claims an exact "ATS score" is guessing.
 
@@ -17,7 +17,7 @@ The pipeline, in order:
 
 | Stage | What happens | What it means for the resume |
 |---|---|---|
-| **1. Parse** | Text extracted from the PDF/DOCX | If this fails, everything downstream — keyword match and AI summary alike — sees garbage or nothing |
+| **1. Parse** | Text extracted from the PDF/DOCX | If this fails, everything downstream: keyword match and AI summary alike: sees garbage or nothing |
 | **2. Knockout filter** | Application-form answers: work authorisation, minimum years, location, licence | The biggest silent cut. Fires on **form answers**, not on layout |
 | **3. Keyword and skills match** | Parsed text scored against the JD's must-haves | Searchable titles, skills named in the market's words |
 | **4. AI summarize and rank** (where enabled) | An LLM reads the parsed text and writes a fit summary the recruiter sees | Clear, specific bullets summarize well; vague ones summarize into mush |
@@ -70,7 +70,7 @@ If nothing can be selected or copied, the file is an image (a scan, or an export
 | No shortened years ("'21") | May not be read as a date |
 | "Present" (or "Current") for the current role | Recognised by most parsers |
 | No ranges hidden in prose ("for three years") | Not parsed as dates |
-| Dates and titles consistent everywhere they appear (including talks, publications, awards) | Gap filters act on parsed dates, and the AI layer reads the resume as one document — internal disagreements now surface to the recruiter |
+| Dates and titles consistent everywhere they appear (including talks, publications, awards) | Gap filters act on parsed dates, and the AI layer reads the resume as one document: internal disagreements now surface to the recruiter |
 
 ### Text and characters
 | Rule | Why |
@@ -88,7 +88,7 @@ If nothing can be selected or copied, the file is an image (a scan, or an export
 |---|---|
 | Job titles that match common titles; add a clarifier if the internal title is unusual: "Member of Technical Staff (Senior Software Engineer)" | Recruiters search and filter by title |
 | Skills named in the words the market uses, and backed by evidence in the experience section | Recruiters search by skill; unsupported lists don't survive human review |
-| Where it is true, use the JD's own terms for skills and titles, inside the user's own sentences | Matches how the recruiter searches — and semantic AI matching rewards genuine overlap, not repetition. Never add terms that aren't true. Copying whole sentences from the posting is a common reason hiring managers reject a resume |
+| Where it is true, use the JD's own terms for skills and titles, inside the user's own sentences | Matches how the recruiter searches: and semantic AI matching rewards genuine overlap, not repetition. Never add terms that aren't true. Copying whole sentences from the posting is a common reason hiring managers reject a resume |
 | Natural synonyms are safe to use | Semantic matching understands that "managed budget" and "P&L ownership" are related; exact-phrase stuffing buys little in 2026 |
 
 ### File and application
@@ -107,4 +107,4 @@ If nothing can be selected or copied, the file is an image (a scan, or an export
 - **"An AI screener will reject an AI-written resume."** Resume screeners are not reliable AI-text detectors, and most employers do not run detection on resumes. The real risks of AI-written resumes are generic, interchangeable bullets a human spots in seconds, and parsing breakage from AI-tool PDF exports (typically table layouts). Whatever drafted the resume, every fact on it must be true.
 
 ## 5. What an LLM cannot check
-From pasted text alone, the assistant cannot see fonts, colours, margins, columns, file size, file type, or whether text sat in a header, table, or text box. It infers these from symptoms in the pasted text (wrong order, missing contact details, junk characters, spaced letters), and marks anything it can't confirm as **Check** for the user to verify in the original file. It cannot see the employer's configured filters, the application form, or whether an AI layer runs on top of the parse at all. The copy-paste test is an approximation of the first stage only — and the only one available.
+From pasted text alone, the assistant cannot see fonts, colours, margins, columns, file size, file type, or whether text sat in a header, table, or text box. It infers these from symptoms in the pasted text (wrong order, missing contact details, junk characters, spaced letters), and marks anything it can't confirm as **Check** for the user to verify in the original file. It cannot see the employer's configured filters, the application form, or whether an AI layer runs on top of the parse at all. The copy-paste test is an approximation of the first stage only, and the only one available.

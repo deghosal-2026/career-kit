@@ -1,4 +1,4 @@
-# AGENTS.md — resume-check
+# AGENTS.md, resume-check
 
 Instructions for any AI agent working in this util. Kit governance (`AGENTS.md`, `WHAT-THIS-IS.md`, `CONVENTIONS.md`) comes first; this util's `00-principles.md` overrides the workflow.
 

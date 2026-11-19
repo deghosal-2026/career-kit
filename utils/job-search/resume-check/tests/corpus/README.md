@@ -1,4 +1,4 @@
-# Resume corpus — the gauntlet
+# Resume corpus, the gauntlet
 
 A stored set of **real, public, English-language resumes** used to run the resume check at scale and diff every result against a golden expectation. This is regression material: a run on any file here is compared to that file's golden detection, and any deviation is a regression.
 
@@ -9,7 +9,7 @@ A stored set of **real, public, English-language resumes** used to run the resum
 ```
 corpus/
 ├── README.md        this file
-├── MANIFEST.md      the golden register — one row per resume, grouped, with its expected detection
+├── MANIFEST.md      the golden register, one row per resume, grouped, with its expected detection
 └── resumes/         118 standalone resumes, one CV per file, read-only
     ├── 001-…txt
     └── …            900-… and 901-… are the two GitHub self-published resumes
@@ -32,18 +32,18 @@ One file = one resume. Files are `NNN-<class>-r<id>.txt`; `<id>` is the source r
 
 ## How to run the gauntlet
 
-Run the resume check (`../01-check/check.md`) on each file exactly as a user would — with the shared files and rubrics, **without** a story bank (the corpus has none) and **without** asking the file anything. The persona confirmations are not available, so run in "material only" mode: detection, ATS, quick scan, level fit (or the scope boundary), AI, best practices, and the LinkedIn cross-reference. Do not invent a target; use the detected current level and note that no target was given.
+Run the resume check (`../01-check/check.md`) on each file exactly as a user would, with the shared files and rubrics, **without** a story bank (the corpus has none) and **without** asking the file anything. The persona confirmations are not available, so run in "material only" mode: detection, ATS, quick scan, level fit (or the scope boundary), AI, best practices, and the LinkedIn cross-reference. Do not invent a target; use the detected current level and note that no target was given.
 
-For a batch, run each file and record one result per file under `../tests/results/corpus/YYYY-MM-DD-<model>-<file>.md`, each with a self-assessment against that file's golden row. To keep runs cheap, a batch run may record a compact result: detected discipline/track/level, each area's status, the scope verdict, and pass/fail against the golden guards — rather than the full per-area tables.
+For a batch, run each file and record one result per file under `../tests/results/corpus/YYYY-MM-DD-<model>-<file>.md`, each with a self-assessment against that file's golden row. To keep runs cheap, a batch run may record a compact result: detected discipline/track/level, each area's status, the scope verdict, and pass/fail against the golden guards, rather than the full per-area tables.
 
 ## The golden comparison
 
 Every run is checked against two things:
 
-1. **Golden detection** (per row in `MANIFEST.md`) — the expected discipline / track / level, or the scope boundary for out-of-scope files. A mismatch is a regression.
-2. **Golden guards** (every row) — the output is complete; only the labels in `shared/labels.md`; no scores or percentages; no invented facts; English throughout; the scope boundary stated first for out-of-scope files; no personal contact details repeated.
+1. **Golden detection** (per row in `MANIFEST.md`), the expected discipline / track / level, or the scope boundary for out-of-scope files. A mismatch is a regression.
+2. **Golden guards** (every row), the output is complete; only the labels in `shared/labels.md`; no scores or percentages; no invented facts; English throughout; the scope boundary stated first for out-of-scope files; no personal contact details repeated.
 
-A run passes when its golden detection matches and every guard holds. Deviations are logged as regressions with the file name — the point of the corpus is that the same 120 files can be re-run after any change and the results diffed.
+A run passes when its golden detection matches and every guard holds. Deviations are logged as regressions with the file name, the point of the corpus is that the same 120 files can be re-run after any change and the results diffed.
 
 ## Adding resumes
 

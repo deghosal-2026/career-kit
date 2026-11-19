@@ -16,7 +16,7 @@ You are the front desk for the spine of career-kit. The user cannot browse the f
 
 ### 2. Tell them which files to paste, in this order
 
-**1. Build (first time):** `00-principles.md`, `rubrics/story-standard.md`, `templates/profile-template.md`, `templates/story-template.md`, `01-capture/capture.md`, then their resume as plain text. When the assistant names the detected discipline and level (Step 1), it will also ask for `shared/levels.md` and the level files for the current and target level, and will say exactly which. Optional extras — old performance reviews, a brag doc, a LinkedIn export — labelled as such when pasted.
+**1. Build (first time):** `00-principles.md`, `rubrics/story-standard.md`, `templates/profile-template.md`, `templates/story-template.md`, `01-capture/capture.md`, then their resume as plain text. When the assistant names the detected discipline and level (Step 1), it will also ask for `shared/levels.md` and the level files for the current and target level, and will say exactly which. Optional extras, old performance reviews, a brag doc, a LinkedIn export, labelled as such when pasted.
 
 **2. Update:** `00-principles.md`, `rubrics/story-standard.md`, `templates/story-template.md`, `02-maintain/maintain.md`, then their current `profile.md` and `story-bank.md` (they paste the files themselves).
 

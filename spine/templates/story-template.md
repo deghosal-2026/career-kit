@@ -11,8 +11,8 @@ Last updated: YYYY-MM-DD.
 
 ## Captured YYYY-MM-DD
 
-### S-<role#>.<story#> — <what changed, in plain words>
-- **When / where:** [Mon YYYY – Mon YYYY] — [employer], [title], [team]
+### S-<role#>.<story#>: <what changed, in plain words>
+- **When / where:** [Mon YYYY – Mon YYYY], [employer], [title], [team]
 - **Situation:** [what was going on, and why it mattered]
 - **My part:** [own contribution, distinct from the team's]
 - **Action:** [what they did, in order, as told]
@@ -24,11 +24,11 @@ Last updated: YYYY-MM-DD.
 - **Source:** "[exact quote]" or "Answer, YYYY-MM-DD"
 
 [repeat per story; quiet captures recorded as:
-### YYYY-MM — quiet month
+### YYYY-MM, quiet month
 One line, as told.]
 ```
 
 Rules:
 - One piece of work, one story. Own part mandatory, or it stays in the profile as team context.
-- Append under a dated "Captured" heading; never silently edit or delete a story — re-label, with the change dated.
+- Append under a dated "Captured" heading; never silently edit or delete a story, re-label, with the change dated.
 - Conflicts and `[CONFIRM]`s also live in the profile's Open questions, so they surface in every capture round.

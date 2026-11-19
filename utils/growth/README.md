@@ -1,6 +1,6 @@
 # Growth
 
-Utils for advancing where you are — the part of the career no job-search tool covers, and the emptiest niche found in the public-repo research: no brag-doc or promotion-packet repo breaks 100 stars.
+Utils for advancing where you are, the part of the career no job-search tool covers, and the emptiest niche found in the public-repo research: no brag-doc or promotion-packet repo breaks 100 stars.
 
 | Util | What it does | Status |
 |---|---|---|

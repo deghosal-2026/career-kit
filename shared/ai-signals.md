@@ -19,7 +19,7 @@ Like the rest of career-kit, this file never names specific models, products, or
 
 ## 2. What screeners look for now (2026)
 
-Recruiter searches have moved to the LLM-era stack: work with language models, agents, and retrieval — not the classic machine-learning stack. In one large recruiter-search sample (2025–2026, vendor-reported), generative-AI requirements nearly doubled in a year, agent requirements grew fastest, and most of that demand targeted roles with no AI, ML, or data-science title. Treat AI evidence as expected in **every** discipline, not only AI-labelled roles.
+Recruiter searches have moved to the LLM-era stack: work with language models, agents, and retrieval, not the classic machine-learning stack. In one large recruiter-search sample (2025–2026, vendor-reported), generative-AI requirements nearly doubled in a year, agent requirements grew fastest, and most of that demand targeted roles with no AI, ML, or data-science title. Treat AI evidence as expected in **every** discipline, not only AI-labelled roles.
 
 What separates production work from prototype:
 

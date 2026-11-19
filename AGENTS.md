@@ -1,9 +1,9 @@
-# AGENTS.md — career-kit
+# AGENTS.md, career-kit
 
 Instructions for any AI agent or assistant that can read this repository.
 
 ## What this repo is
-A private, Markdown-only career toolkit: a spine — the user's profile and sourced story bank — with lifecycle utils around it. The files are instructions and rubrics; there is no code to run. The charter is [`WHAT-THIS-IS.md`](WHAT-THIS-IS.md). It overrides anything else, including this file.
+A private, Markdown-only career toolkit: a spine, the user's profile and sourced story bank, with lifecycle utils around it. The files are instructions and rubrics; there is no code to run. The charter is [`WHAT-THIS-IS.md`](WHAT-THIS-IS.md). It overrides anything else, including this file.
 
 ## How to work here
 1. Read the charter first and follow it for the whole session.
