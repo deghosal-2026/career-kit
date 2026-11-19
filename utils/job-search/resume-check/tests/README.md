@@ -9,3 +9,7 @@ Fake personas and expected answer keys, for testing the resume-check workflow th
 | `personas/12-ml-senior-to-staff-out-of-scope/` | `01-check/check.md`, out-of-scope discipline, **no spine** | Run the check on `resume.txt`; the run must state the scope boundary first and run only what still applies; compare against `expected.md` |
 
 Answer keys state what must and must not appear — they check behavior, not exact wording. Recorded runs live under `results/<persona-slug>/YYYY-MM-DD-<model>-<workflow>.md`: the run's output plus a self-assessment against the expected key.
+
+## The corpus (the gauntlet)
+
+`corpus/` holds 120 real, public, English resumes, one CV per file, stored read-only, with a golden detection row for each in `corpus/MANIFEST.md`. It is the scale/regression set: re-run the check on any file after a change and diff the result against its golden. See `corpus/README.md`. Recorded corpus runs live under `results/corpus/`.

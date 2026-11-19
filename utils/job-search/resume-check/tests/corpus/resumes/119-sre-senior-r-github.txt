@@ -1,0 +1,106 @@
+Clayton Graves
+Villa Rica, GA (Open to relocation with assistance)
+[email removed]
+LinkedIn: [link removed]
+GitHub: [link removed]
+
+## Professional Summary
+
+Senior Infrastructure & Site Reliability Engineer with 20+ years of experience designing, operating, and stabilizing large-scale Linux platforms in production environments. Deep expertise in reliability engineering, incident ownership, automation, and systems architecture across datacenter, cloud, and hybrid infrastructure.
+
+Known for owning complex systems end-to-end, reducing operational risk through automation and observability, and partnering effectively across engineering, hardware, and customer-facing teams to keep critical systems running.
+
+## Core Competencies
+
+- Infrastructure & Reliability Engineering
+- Linux Platform Engineering
+- Incident Command & Root Cause Analysis
+- Systems Architecture & Design
+- Automation & Infrastructure as Code
+- Observability, Monitoring & Alerting
+- HPC & Cluster Operations
+- Cloud & Hybrid Infrastructure
+- Kubernetes & Container Platforms
+- CI/CD & Deployment Pipelines
+- Bare-Metal, Datacenter & Hardware Platforms
+- Cross-functional Technical Leadership
+
+## Technologies
+
+- Operating Systems: RHEL | CentOS | Rocky | Ubuntu
+- Cloud Platforms: AWS | Azure (hybrid)
+- Automation & IaC: Ansible | CFEngine | Terraform
+- Containers & Virtualization: Docker | Podman | Kubernetes | KVM | QEMU | VMware
+- Scripting & Tooling: Bash | Python | PowerShell
+- Monitoring & Observability: Zabbix | Prometheus | Grafana | ELK
+- CI/CD & SCM: Jenkins | Git
+- Networking: VLANs | macvlan | namespaces | TCP/IP | DNS
+
+Primary Focus: Reliability engineering, infrastructure automation, platform stability, and complex system ownership
+
+## Professional Experience
+
+### Cadence Design Systems — Atlanta, GA
+Lead Field Service Engineer (June 2025 – Present)
+
+- Own operational stability for large-scale multi-tenant emulation platforms spanning 150–200 racks and thousands of interconnects in a production datacenter environment.
+- Maintain and support Palladium Z1, Z2, Z3 and Protium X2, X3 systems, from single-rack setups to complex 8-rack deployments in both single-tenant and multi-tenant environments.
+- Partner with Cadence R&D to identify, troubleshoot, and resolve hardware/software defects and systemic bugs, contributing to product improvements and future development cycles.
+- Serve as primary escalation point for customer-facing emulation platforms, owning troubleshooting and resolution across hardware, OS, and vendor boundaries to maintain uptime and stability.
+
+### Hewlett Packard Enterprise — Fort Collins, CO
+Network ASIC Validation Systems Administrator / Software Support Engineer / Team Lead
+(Aug 2013 – Apr 2025)
+
+- Led and mentored a team of seven engineers, managing workflow assignments, onboarding, and cross-functional execution across engineering and operations.
+- Owned ASIC validation and Slurm-based HPC platforms supporting silicon development at scale; automated provisioning across x86_64/aarch64 with Ansible, Docker, and Podman.
+- Supported Slurm controller administration, job debugging, and capacity troubleshooting to maintain cluster reliability and performance.
+- Administered Cadence Palladium ASIC emulation platforms, including system installation, diagnostics, and expansion, in coordination with Cadence engineers.
+- Authored dynamic network automation scripts (TAP, macvlan, namespaces, DHCP) and internal tooling for infrastructure asset tracking using NGINX, MySQL, and Python.
+- Led implementation of KVM-based virtualization and established standards for lab hardware and topology, and environment consistency.
+- Created technical documentation, onboarding materials, and knowledgebase resources to reduce ramp-up time and support burden.
+
+### Cherokee Nation Businesses / Dept. of Fish and Wildlife — Fort Collins, CO
+DevOps Engineer (Apr 2021 – Oct 2022)
+
+- Supported secure RHEL7 infrastructure using Ansible, CFEngine, Jenkins, and Git.
+- Implemented operating system security updates, patches, and upgrade automation, SSL certificate renewal workflows, and system hardening practices.
+- Built Teampass for internal credential management using Apache, MariaDB, and Python.
+- Deployed Zabbix monitoring with CFengine policy enforcement across Linux infrastructure.
+
+### Advanced Energy — Fort Collins, CO
+IT Systems Administrator (Jan 2013 – Aug 2013)
+
+- Managed multi-platform virtualized environment (VMware, Hyper-V, clustered storage).
+- Supported Active Directory migrations and SAN maintenance.
+
+### Microsoft — Redmond, WA
+Lab Infrastructure Engineer (Aug 2010 – Jan 2013)
+
+- Supported and automated large-scale Windows development and test lab infrastructure, including OS deployment, upgrades, and migrations.
+- Built and maintained PowerShell automation, Active Directory services, and VMware-based virtualization supporting dynamic lab workloads.
+
+### Intrado / West Safety Services — Longmont, CO
+NOC Engineer (Jan 2009 – Jan 2010)
+
+- Managed 9-1-1 data center infrastructure and provided incident response and disaster recovery support.
+
+## Education
+
+- Associate Degree – Computer Science / Networking
+Remington College — Lakewood, CO (2002–2004)
+
+## Selected Projects
+
+### AI Knowledge Retrieval Assistant (RAG System)
+Portfolio project demonstrating modern infrastructure-adjacent AI system design (RAG, retrieval, orchestration)
+
+Designed and implemented a Retrieval-Augmented Generation (RAG) system demonstrating production-adjacent infrastructure, reliability, and system integration patterns for AI-assisted tooling.
+
+- Built a vector-search–backed conversational assistant using OpenAI, Qdrant, and LangChain.
+- Implemented document ingestion, embedding, and retrieval pipelines.
+- Designed modular architecture suitable for internal knowledge bases and operational documentation systems.
+- Deployed interactive web UI using Streamlit for rapid iteration and demonstration.
+- Maintained and refactored the system as a portfolio project focused on applied infrastructure patterns.
+
+Focus: LLM orchestration, vector search, system integration, and applied infrastructure design

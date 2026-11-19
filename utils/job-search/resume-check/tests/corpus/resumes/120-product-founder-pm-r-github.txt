@@ -1,0 +1,56 @@
+Digital Product Manager Résumé
+
+Max Voskob
+A Product Leader for early stage projects
+
+I helped to start and grow three product-centric companies: from an idea, to an MVP, to a fully functional solution.
+
+Bits + Atoms — Battery-powered AI camera — From inception to pre-production. (sensorable.io)
+Atoms ⇨ Bits — E-commerce inventory system — From inception to production and support. (mventory.com)
+Bits ⇨ Atoms — Online print ordering platform — From inception to production and support. (zetaprints.com)
+
+Testimonials (as shown)
+"The experience I gained working with Max on ZetaPrints web-to-print system made me the designer I am today." — Atanas Gurkov, graphic designer
+"Although we encountered many obstacles on our journey with Sensorable, team cohesion always remained strong." — Dr Arno Leist, co-founder
+"I have worked with Max since 2006 when he helped me set up an on line print ordering site. The site has served me extremely well and I still use it." — Tim Beer, ZetaPrints customer
+
+Product Development Experience
+
+2 failures, 1 success, 1 OK
+
+I am mission-driven. My focus is on the customer first, then on the product. Solving an interesting problem and having happy customers gives me most satisfaction. Doing it as part of a great team is a bonus.
+
+Sensorable — 2016 - 2019
+An Android-based AI camera for security, road safety and traffic analysis. The project spanned hardware, embedded and cloud software.
+My role: co-founder, hardware concept, manufacturing, field testing, AWS cloud, UI, team coordination, customer relations.
+Challenges: finding a balance between cost, features and h/w capabilities.
+Achievements: launch of a R&D-heavy product on time and 30% under budget.
+Takeaways: the value of a great team, advisors and investors.
+The goal of the project was to make a smart battery-powered camera with cellular connectivity using commodity hardware and electronics. After a series of prototypes and initial market validation, the team grew to include an electronics engineer, a 3D-designer and a machine learning expert as a co-founder. Together we launched a unique and fully functional product to make cities safer for cyclists, pedestrians and road workers.
+
+mVentory — 2013 - 2016
+A mobile inventory system for creating beautifully photographed and well described e-commerce listings.
+My role: co-founder, product leader.
+Challenges: make a digital product that fits seamlessly into an ad hoc retail workflow.
+Achievements: an easy to use system, tens of thousands of products listed online by customers.
+Takeaways: solve problems worth solving, focus, move fast.
+Our mission was to help retailers list more products online by making the listing process as seamless as possible. I was solely focused on product management across Magento, Android, AWS and hardware peripherals. Most of my time was spent in shops and warehouses working closely with customers and relaying my experiences and ideas back to the team.
+
+ZetaPrints — 2006 - 2015
+An online ordering platform for commercial printers to take personalized orders using sophisticated design templates.
+My role: company founder, initially solo developer, later product leader.
+Challenges: use of then novel SaaS model, early adoption of AWS, building a distributed team.
+Achievements: thousands of happy customers, millions of designs created and printed, financially successful.
+Takeaways: importance of excellent customer service, how to work across 4 timezones.
+ZetaPrints helped many small and medium printing businesses to switch from a manual ordering process to e-commerce with artwork customization. The MVP solution I developed initially took off and the demand quickly outgrew what a solo developer could provide. I shifted my role to product management, customer support and coordinating a small distributed team that stayed together for many years.
+
+R.T.K. — 1993 - 1999
+I bootstrapped a small fixed line telco company in my late teens, early 20's. A mix of good luck, bold decisions and an exceptional team helped us grow to 20,000+ subscribers in direct competition with the state-owned monopoly. The business was acquired by a competitor.
+
+Other projects — Various jobs and projects I did in between
+NSW Police, AU: IT consultant, 1yr part-time — XML, data architecture, system integration
+RK Solutions, IE: s/w developer, 11yrs part-time, remote — .Net, MS SQL, solution architecture, integration
+MSI NZ: IT consultant, 2yrs — .Net, XML, data architecture, integration
+EDS NZ: s/w developer
+
+Note on format: no education section (self-taught); résumé is a living document maintained on GitHub.
