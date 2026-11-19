@@ -1,5 +1,8 @@
-# User's private material, never commit anything here
-my-files/
+# Your private material lives in my-files/. Never commit it.
+# The folder has its own .gitignore that ignores everything inside it,
+# so a fresh clone protects your files as soon as you drop them in.
+my-files/*
+!my-files/.gitignore
 
 # OS noise
 .DS_Store

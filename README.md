@@ -71,7 +71,14 @@ v0.1.0, 2026-11-18: the spine, resume-check, jd-match, cover-letter, the full ru
 
 ## Privacy
 
-Everything under `my-files/` is git-ignored. The kit never commits your material, never asks for your phone, address, date of birth, or salary history, and flags confidential details you paste by accident. Remove contact details before pasting into a hosted AI tool.
+The design rule is simple: everything of yours lives in `my-files/`, and that directory is fully git-ignored. Your resume, your story bank, your JDs, and every report the kit writes stay in that folder and are never committed, pushed, or uploaded by the kit. Nothing leaves your machine unless you paste it somewhere.
+
+Two things to know:
+
+- **The kit is local. The LLM you run it through is your choice and your responsibility.** career-kit has no telemetry, no backend, and no network calls. The AI chat or agent you use has its own privacy policy, retention terms, and training practices. Check them before pasting anything sensitive into a hosted model. That is the one boundary the kit cannot enforce for you.
+- **You can run it fully local.** Because the kit is plain Markdown, it works with local LLMs and self-hosted harnesses. If you want zero data leaving your machine, point a local model at the repo and keep everything in `my-files/`.
+
+Also: the kit never asks for your phone, address, date of birth, or salary history, flags confidential details (internal codenames, non-public figures) with a `[CONFIRM: is this public?]` before they can travel, and tells you when you pasted something you should not have. Remove contact details before pasting into a hosted AI tool.
 
 ## License
 

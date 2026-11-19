@@ -190,8 +190,15 @@ Each persona and each corpus resume has an answer key (`expected.md` / the golde
 
 **My role isn't covered.** The kit covers Mid to Principal and Manager to Director in seven disciplines. Outside that, it says so and uses only the parts that still apply.
 
-**Is my data safe?** The kit stores nothing; `my-files/` is git-ignored and never committed. Your AI tool's own policies apply.
+**Is my data safe?** The kit stores nothing; `my-files/` is git-ignored and never committed. The LLM you run it through is your responsibility: check its privacy, retention, and training terms before pasting anything sensitive, or use a local LLM to keep everything on your machine.
 
 ## Privacy
 
-Remove your phone number and home address before pasting into a hosted AI tool. Internal codenames and non-public figures get generic wording with a `[CONFIRM: is this public?]`. The bank is written so it could be pasted into any tool, because it will be.
+The design rule is simple: everything of yours lives in `my-files/`, and that directory is fully git-ignored. Your resume, your story bank, your JDs, and every report the kit writes stay in that folder. The kit never commits, pushes, or uploads them. Nothing leaves your machine unless you paste it somewhere.
+
+Two things to check on your side:
+
+- **The kit is local. The LLM you run it through is your choice and your responsibility.** career-kit has no telemetry, no backend, and no network calls. The AI chat or agent you use has its own privacy policy, retention terms, and training practices. Check them before pasting anything sensitive into a hosted model. That is the one boundary the kit cannot enforce for you.
+- **You can run it fully local.** The kit is plain Markdown, so it works with local LLMs and self-hosted harnesses. If you want zero data leaving your machine, point a local model at the repo and keep everything in `my-files/`.
+
+The kit also does its part: it never asks for your phone, address, date of birth, or salary history; it flags confidential details (internal codenames, non-public figures) with a `[CONFIRM: is this public?]` before they can travel; and it lists anything sensitive you pasted by accident under "Not included" instead of copying it into the bank. Remove contact details before pasting into a hosted AI tool.
