@@ -12,4 +12,4 @@ Answer keys state what must and must not appear — they check behavior, not exa
 
 ## The corpus (the gauntlet)
 
-`corpus/` holds 120 real, public, English resumes, one CV per file, stored read-only, with a golden detection row for each in `corpus/MANIFEST.md`. It is the scale/regression set: re-run the check on any file after a change and diff the result against its golden. See `corpus/README.md`. Recorded corpus runs live under `results/corpus/`.
+`corpus/` holds 118 real, public, English resumes, one CV per file, stored read-only, with a golden detection row for each in `corpus/MANIFEST.md`. It is the scale/regression set: re-run the check on any file after a change and diff the result against its golden. See `corpus/README.md`. Recorded corpus runs live under `results/corpus/`.

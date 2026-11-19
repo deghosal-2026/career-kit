@@ -9,26 +9,26 @@ A stored set of **real, public, English-language resumes** used to run the resum
 ```
 corpus/
 ├── README.md        this file
-├── MANIFEST.md      the golden register — one row per resume, with its expected detection
-└── resumes/         120 standalone resumes, one CV per file, read-only
+├── MANIFEST.md      the golden register — one row per resume, grouped, with its expected detection
+└── resumes/         118 standalone resumes, one CV per file, read-only
     ├── 001-…txt
-    └── …
+    └── …            900-… and 901-… are the two GitHub self-published resumes
 ```
 
 One file = one resume. Files are `NNN-<class>-r<id>.txt`; `<id>` is the source row (for traceability), `<class>` is the coverage bucket.
 
-## Coverage (120 files)
+## Coverage (118 files)
 
-| Group | Examples | Golden expectation |
-|---|---|---|
-| Software engineering IC | Java, Python, .NET, Blockchain | Software, IC, Mid–Senior |
-| Data | ETL, Hadoop, Database/DBA, Data Science | Data engineering (DBA) in scope; data science **out of scope** |
-| Platform / SRE / Cloud | DevOps, Infrastructure | Platform or SRE, IC |
-| Security | Network security engineers | Security, IC |
-| Leader / Director / VP | Director of Engineering, Engineering Operations Director, VP of IT, CTO, Systems Engineering Manager, Engineering Manager | Leader track, Manager → Director → VP |
-| Product / Program | Product Manager, Program Manager, PMO | Product (PM-T-adjacent); program management (TPM-adjacent) |
-| Out of scope (boundary tests) | QA/testing, design, mechanical, civil, electrical, HR, sales, BPO, finance, chef, advocate, arts | Boundary stated first; craft checks only |
-| GitHub self-published | Senior SRE, founder/PM | In scope; realistic modern formatting |
+| Group | Files | Examples | Golden expectation |
+|---|---|---|---|
+| Software engineering (IC) | 23 | Java, Python, .NET, Blockchain, senior SWE | Software, IC, Mid–Senior |
+| Data | 19 | ETL, Hadoop, Database/DBA | Data engineering, IC, Mid–Senior |
+| Platform / SRE / Cloud | 7 | DevOps, Infrastructure | Platform or SRE, IC |
+| Security | 7 | Network / information security engineers | Security, IC |
+| Leader | 19 | Director of Engineering, VP of IT, CTO, Engineering Manager, Systems Engineering Manager | Leader track, Manager → Director → VP |
+| Product / Program | 9 | Product Manager, Program Manager, PMO | Product (PM-T-adjacent); program management (TPM-adjacent) |
+| Out of scope (boundary tests) | 32 | QA/testing, design, mechanical, civil, electrical, HR, sales, BPO, finance, advocate, arts | Boundary stated first; craft checks only |
+| Self-published (GitHub) | 2 | Senior SRE, founder/PM | In scope; realistic modern formatting |
 
 ## How to run the gauntlet
 
