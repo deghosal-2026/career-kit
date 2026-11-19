@@ -6,6 +6,8 @@ The short version lives in [`README.md`](README.md); the constitution is [`WHAT-
 
 career-kit turns any AI chat or agent into an honest career evaluator for people in tech — mid-level through Principal / Director. It has one design idea: **a story bank of what you actually did, every fact sourced**, and every job afterwards draws on it. The resume is an output of the spine, not the starting point.
 
+**Where it sits:** the job *search* is solved — agentic and automation tools search boards, download postings, and submit applications. This kit starts after that. You bring the resume you have and the JDs you collected; the kit tells you what your material actually says, how it compares, and what to change — with every claim traced to your evidence.
+
 What that buys you:
 
 - **Evidence, always.** Every judgment quotes your own material. Missing facts become `[CONFIRM: ...]` placeholders, never inventions. "Not found in your material" is a valid, useful answer.
@@ -28,7 +30,7 @@ Do them in order or on their own.
 | **1. Build your story bank** (~30–45 min) | Your resume (optional extras: old reviews, a brag doc, a LinkedIn export) | `profile.md` + `story-bank.md` — every fact labeled From CV, Confirmed, or Needs confirm |
 | **2. Keep it current** (monthly, or after a project) | What you worked on since last time | New stories appended and dated; old ones re-labeled, never deleted |
 | **3. Check your resume** | Your resume text (and the bank) | The level it reads as, then parsing, quick scan, level fit, AI and agentic work, best practices, the spine cross-check, and the LinkedIn cross-reference. Top 3 actions first |
-| **4. Match a job** | Your bank and up to 5 job descriptions | Every requirement rated against your stories, a fit verdict per job with the tally, a gap plan |
+| **4. Match a job** | Your bank and up to 5 job descriptions (paste the JDs you collected from any job-search tool) | Every requirement rated against your stories, a fit verdict per job with the tally, a gap plan |
 | **5. Draft a cover letter** | Your bank, a JD, and why you want the role | A short draft where every claim points to a story |
 
 ## Levels
@@ -179,6 +181,8 @@ Each persona and each corpus resume has an answer key (`expected.md` / the golde
 ## Questions
 
 **Why paste so many files?** So any AI judges you by the same written standard, not its own opinion. Agents read the files themselves.
+
+**Does it search or apply to jobs for me?** No — and that is deliberate. Job *search* is a solved problem: agentic tools search boards, download postings, and auto-apply. This kit takes over after you have your resume and your JDs. It never scrapes, never submits, never sends anything on your behalf.
 
 **My chat tool won't take that much text.** Paste across several messages and say "done" at the end. If answers drift, ask for one step at a time.
 

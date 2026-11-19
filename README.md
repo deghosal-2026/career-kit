@@ -2,6 +2,8 @@
 
 A private, Markdown-only career toolkit for people in tech: **one evidence spine — your story bank — with honest utils around it.** Every claim a util makes traces to your own material. No code, no accounts, no telemetry; works with any AI chat or agent, and your material stays on your machine.
 
+**Where it sits in the pipeline:** this is not a job searcher. There are plenty of agentic and automation tools that search job boards and download postings — use those. career-kit is what happens *after*: you have your resume and your JDs, and now you want to know — what level does my resume actually read as, how does it survive parsing, do I match this JD and where are the real gaps, what should my LinkedIn carry, and what does an honest cover letter for this role look like. Every judgment quotes your own evidence; every gap is named, not papered over.
+
 ## What it does
 
 - **Builds your story bank** — mines your resume, asks a few short question rounds, and records every fact with a status: From CV, Confirmed, or Needs confirm.
@@ -11,7 +13,7 @@ A private, Markdown-only career toolkit for people in tech: **one evidence spine
 
 ## What it is not
 
-No auto-apply. No scraping. No scores — no "80% match", no ATS percentage. No resume templates or typesetting. No hosting, no sign-up, no analytics. Full list with the reasoning: the charter.
+**Not a job searcher.** No searching, scraping, downloading, or auto-applying — other agentic tools do that; this kit starts where they stop. No scores — no "80% match", no ATS percentage. No resume templates or typesetting. No hosting, no sign-up, no analytics. Full list with the reasoning: the charter.
 
 ## Ways to extend
 
