@@ -1,0 +1,15 @@
+Senior Software Engineer II, Checkout
+Pellucid Goods (fictional) | Portland, OR (hybrid, 3 days in office)
+
+You will own checkout services end to end, design and build new features, and mentor junior engineers. You will be on call for checkout and lead incident reviews.
+
+Requirements
+- 5+ years of backend development
+- Ownership of a production service end to end, including on-call
+- Experience designing APIs and event-driven systems
+- Experience mentoring junior engineers
+
+Preferred
+- Experience with checkout or payments flows
+- Experience with shared libraries used by other teams
+- Familiarity with machine learning for fraud detection

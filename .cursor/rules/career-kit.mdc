@@ -1,0 +1,12 @@
+---
+description: career-kit charter and entry points
+globs:
+alwaysApply: true
+---
+
+This repository is career-kit. This rule is a pointer, not the instruction set — the rules are written once, in their owning files, and are never copied here.
+
+1. Read `WHAT-THIS-IS.md` — the charter. It governs everything.
+2. Read `AGENTS.md` — your entry point — and follow it.
+3. Story bank work → `spine/AGENTS.md`. Any other util → `utils/<phase>/<util>/AGENTS.md` plus its `00-principles.md`.
+4. Never commit, push, or transmit anything from any `my-files/` directory.

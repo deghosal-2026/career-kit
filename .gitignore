@@ -1,0 +1,6 @@
+# User's private material — never commit anything here
+my-files/*
+!my-files/README.md
+
+# OS noise
+.DS_Store
